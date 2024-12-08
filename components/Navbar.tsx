@@ -9,27 +9,27 @@ const Navbar = () => {
           href="/"
           aria-label="Framer-motion"
         >
-          Framer-motion Discovery
+          Framer-motion Kit
         </Link>
         <div className="flex flex-row items-center gap-5 mt-5 sm:justify-end sm:mt-0 sm:ps-5">
           <Link
             className="font-medium text-blue-500 focus:outline-none"
-            href="/rithmic"
+            href="/navbar"
             aria-current="page"
           >
-            Rithmic
+            Navbar
           </Link>
           <Link
             className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500"
-            href="/tom-is-loading"
+            href="/buttons"
           >
-            Tom is loading
+            Buttons
           </Link>
           <Link
             className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500"
-            href="/contact"
+            href="/scroll"
           >
-            Contact
+            Scroll
           </Link>
           <Link
             className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500"
