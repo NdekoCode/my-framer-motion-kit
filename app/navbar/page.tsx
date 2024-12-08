@@ -1,9 +1,12 @@
-import { SlideTabsExample } from '@/components/navbar/SlideTabs';
+// import { SlideTabsExample } from '@/components/navbar/SlideTabs';
+
+import ShiftingDropDown from '@/components/navbar/ShiftingDropDown';
 
 const page = () => {
   return (
     <div>
-      <SlideTabsExample/>
+      {/* <SlideTabsExample/> */}
+      <ShiftingDropDown/>
     </div>
   )
 }
